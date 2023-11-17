@@ -13,7 +13,7 @@
     margin: 0;
     box-sizing: border-box; 
     font-family:'Poppins'sans-serif;
-   
+  
 }
 
 .navbar-brand  {
@@ -30,16 +30,8 @@
 }
 
 
-.enqiries-text{
-    font-family:"adobe-caslon-pro"; 
-    font-size: 3rem;
-    font-style: italic;
-    text-align: center;
-    word-wrap: break-word;
-    word-spacing: 0.20rem;
-    letter-spacing: 0.10rem;
-    font-weight: 600;
-}
+
+
 
 
 .paragraph-text{
@@ -104,7 +96,13 @@ opacity: 90%;
   .paragraph-text{
     font-size: 0.70rem;
   }  
+.main-text{
+    font-size: 1.8rem;
+}
 
+.waving  img{
+    width: 30px; 
+}
 
   
 .card-container{
@@ -124,36 +122,97 @@ font-size: 1.2rem
     padding-bottom: 1rem;
 }
 
+
+  
+  
+}
+
+.image-column{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-section{
+    padding-top: 1rem;
+}
+
+
+
+
+/* smaller device */
+
+
+@media (max-width: 576px){
+    .main-text{
+        font-size: 1rem;
+    
+}
+.paragraph-text{
+   font-size: 0.70rem; 
+ 
+
+} 
+
 .the-image img {
-  justify-content: start;
-  height: 40vh;
-  display: flex;
-  align-self: flex-start;
-  width: 29rem;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-
+    justify-content: center;
+   height: 20vh;
+   display: flex;
+   align-self: center;
+ width: 10rem;
+   
+ 
+}
 }
 
 
+@media (max-width: 786px){
+    .main-text{
+        font-size: 1.7rem;
+    
 }
+.paragraph-text{
+   font-size: 0.67rem; 
+ 
+
+}  
+}
+
+
+
+@media (min-width: 896px){
+    .main-text{
+        font-size: 2.5rem;
+    
+}
+.paragraph-text{
+    font-size: 0.90rem;
+  }  
+}
+
 
 
 
 /* media query for tablet */
-@media screen and (min-width:1200px) {
-
-
-
-.hero{
-    height: auto;
+ @media (min-width: 1200px){
+    .main-text{
+        font-size: 2.7rem;
+    
 }
+.paragraph-text{
+    font-size: 1rem;
+  }  
+} 
 
-.services-card{
-
+/* 
+@media (min-width: 1366px){
+    .card {
+    
+    max-width: 21.33333333%; 
 }
-}
+} */
 
-
+       
+    
 
 

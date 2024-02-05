@@ -26,21 +26,36 @@
 }
 
 .main-text{
-   font-weight: bold; 
+   font-weight: bolder; 
+   
 }
-
-
 
 
 
 
 .paragraph-text{
-font-family:'Poppins' sans-serif;
+font-family:'Poppins' ;
 font-weight: 400 ;
-font-size: 0.98rem;
+font-size: 0.80rem;
 opacity: 90%;
+line-height: 1.7rem;
+letter-spacing: 4%;
+}
+
+.description-text{
+    letter-spacing: 4%;
+    line-height: 50%;
+    font-family:'Poppins'  sans-serif;
+
 
 }
+
+
+
+
+
+
+
 .image-container{
     border: 1px solid white;
     padding-top:30px;
@@ -95,9 +110,11 @@ opacity: 90%;
 @media (max-width: 768px){
   .paragraph-text{
     font-size: 0.70rem;
+  
   }  
 .main-text{
     font-size: 1.8rem;
+   
 }
 
 .waving  img{
